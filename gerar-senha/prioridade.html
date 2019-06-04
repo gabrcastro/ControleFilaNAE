@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Controle NAE</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+   
+    <!--css-->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script>
+    
+    function voltar(){
+      window.location.href = 'gerar_senha.html';
+    }
+
+    </script>
+
+  </head>
+  <body>
+
+    <div class="container" align="center">
+      <br>
+      <img src="../imagens/logo.png" alt="">
+
+      <div class="container_two">
+          <h1 class="title">Você é prioridade?</h1><br><br>
+
+          <form action="control/process-prioridade.php" method="POST">
+            <button class="btn1" name="btn" value="1">SIM</button><br><br>
+            <button class="btn2" name="btn" value="2">NÃO</button><br><br>
+          </form>
+          <button class="btn3" onclick="voltar()">Voltar</button><br><br>
+      </div>
+
+
+      
+
+    </div>
+
+  </body>
+</html>

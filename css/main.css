@@ -1,0 +1,287 @@
+/*Estilo para o index*/
+/*-----------------------------------*/
+.container-main{
+    padding: 25px;
+}
+
+.img-logo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.login{
+    width: 400px;
+    background-color: rgb(168, 168, 168, 0.3);
+    padding: 25px;
+}
+
+.login label{
+    float: left;
+    font-weight: bold;
+}
+
+.login input{
+    height: 35px;
+}
+
+.login button{
+    background-color: rgb(85, 139, 13);
+    color: #fff;
+    font-size: 20px;
+}
+
+/*Estilo para o sistema*/
+/*------------------------------------------*/
+
+
+.nav{
+    background-color: rgb(102, 102, 102);
+    height: 55px;
+    margin-bottom: 25px;
+}
+
+.nav a{
+  color: white;
+}
+
+.nav a:hover{
+  color: #dedede;
+}
+
+.nav2{
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 20px;
+}
+
+.nav2 li{
+  margin-right: 20px;
+}
+
+.painel-esquerdo{
+  padding: 20px;
+  background-color: #dedede;
+}
+
+.painel-esquerdo li{
+  font-size: 40px;
+}
+
+.lista-senhas button{
+  display: block;
+  float: right;
+  background-color: rgb(255, 255, 255);
+  font-size: 35px;
+  color: black;
+  width: 250px;
+}
+
+.lista-senhas label{
+  margin-left: 500px;
+  color: red;
+  text-shadow: 1px 1px #000;
+}
+
+.painel-direito{
+  padding: 20px;
+  text-align: center;
+}
+
+.painel-direito h2{
+  font-size: 55px;
+  margin-bottom: 50px;
+  margin-top: 120px;
+}
+
+.painel-direito h3{
+  font-size: 120px;
+  margin-bottom: 80px;
+}
+
+.radios{
+  font-size: 50px;
+}
+
+.form-chamar a:active{
+  background-color: green;
+}
+
+.form-chamar button{
+  color: #fff;
+  font-size: 40px;
+  height: 120px;
+  background-color: rgb(85, 139, 13);
+}
+
+.form-chamar button:hover{
+  background-color: #222;
+  color: #fff;
+}
+
+
+
+/*Estilo para o monitor*/
+/*------------------------------------------*/
+
+.container-cima{
+    padding: 25px;
+    margin-bottom: 50px;
+  }
+
+  .container-cima h1{
+    position: relative;
+    float: right;
+    font-size: 120px;
+  }
+
+  .painel-senha{
+    background-color: rgb(85, 255, 99);
+  }
+
+  .painel-senha h1{
+    margin-bottom: 100px;
+    font-size: 90px;
+  }
+
+  .painel-senha h2{
+    font-size: 250px;
+    margin-bottom: 100px;
+  }
+
+  .painel-balcao{
+    background-color: rgb(45, 253, 62);  
+  }
+
+  .painel-balcao h1{
+    margin-bottom: 100px;
+    font-size: 90px;
+  }
+
+  .painel-balcao h2{
+    font-size: 250px;
+    margin-bottom: 100px;
+  }
+
+
+  /*Estilo para gerar_senha*/
+  /*---------------------------------*/
+
+  .container {
+    background-color: transparent;
+  }
+
+  .container_two{
+    background-color: rgb(159, 255, 151);
+    padding: 10px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+  }
+
+  .title{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+  }
+
+  img{
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  .form-setor button{
+    background-color: green;
+    color: #fff;
+    font-size: 60px;
+    border-radius: 25px;
+    width: 650px;
+    height: 150px;
+  }
+
+  /*Estilo para prioridade*/
+  /*---------------------------*/
+
+  .container {
+    background-color: transparent;
+  }
+
+  .container_two{
+    background-color: #222;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+  }
+
+  .title{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+  }
+
+  img{
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+
+  .btn1{
+    background-color: green;
+    color: #fff;
+    font-size: 60px;
+    border-radius: 25px;
+    width: 650px;
+    height: 150px;
+  }
+
+  .btn2{
+    background-color: red;
+    color: #fff;
+    font-size: 60px;
+    border-radius: 25px;
+    width: 650px;
+    height: 150px;
+  }
+
+  .btn3{
+    background-color: #dedede;
+    color: #000;
+    font-size: 40px;
+    border-radius: 25px;
+    width: 650px;
+    height: 100px;
+  }
+
+  /*--------------------------------------------------*/
+  /*Estilo para escolher_mesa*/
+
+  .div-setor{
+    margin-top: 20px;
+  }
+
+  .div-setor h2{
+    color: #000;
+    font-size:60px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .div-setor form{
+    padding: 15px;
+    background-color: rgb(85, 139, 13);
+  }
+
+  .div-setor label{
+    color: white;
+    font-size:30px;
+    text-align: center;
+  }
+
+  .div-setor select{
+    font-size: 45px;
+  }
+
+  .div-setor button{
+    height: 60px;
+    font-size: 30px;
+    background-color: #fff;
+  }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de Fila NAE</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="container-main container" align="center">
+        <img class="img-logo" src="imagens/logo.png">
+
+        <div class="login">
+            <form action="funcionario/control/process.php" method="POST">
+                <div class="form-group">
+                    <label for="user">Usuário</label><br>
+                    <input class="form-control" type="text" name="user" id="user"> <br>
+
+                    <label for="passwd">Senha</label><br>
+                    <input class="form-control" type="password" name="passwd" id="passwd"> <br>
+
+                    <button class="btn form-control" type="submit">Entrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
