@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de Fila NAE</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="../css/main.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+</head>
+<body>
+
+    <!--Container de toda a página - com bootstrap-->
+    <div class="container-main container" align="center">
+        <!--Logo da faculdade-->
+        <img class="img-logo" src="../imagens/logo.png">
+
+        <!--Div responsavel pelo painel de login-->
+        <div class="login">
+            <!--Formulario que envia dados para o process.php-->
+            <form action="control/process.php" method="POST">
+                <div class="form-group">
+                    <!--Inputs de usuario e senha com botao para entrar-->
+                    <label for="user">Usuário</label><br>
+                    <input class="form-control" type="text" name="user" id="user"> <br>
+
+                    <label for="passwd">Senha</label><br>
+                    <input class="form-control" type="password" name="passwd" id="passwd"> <br>
+
+                    <button class="btn form-control" type="submit">Entrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

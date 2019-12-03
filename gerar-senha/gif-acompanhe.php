@@ -17,7 +17,9 @@
       }
     </style>
 
+      <!--Javascript-->
     <script>
+      //Metodo que fecha a tela apos 2 segundos
       function fechar(){
         fechar = window.open(window.location.href = "gerar_senha.html", "_self");
       }

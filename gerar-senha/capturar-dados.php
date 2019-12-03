@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Controle NAE</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--CSS da pagina-->
     <style>
     body {
       background-color: #fff;
@@ -57,13 +59,13 @@
     }
 
     </style>
-
-    <script>
-    
+<!---------------------------------------------->    
+<!--JavaScript-->
+    <script>     
+    //Funcao do botao cancelar que redireciona para a tela inicial de ggerar senha
     function cancelar(){
       window.location.href = 'gerar_senha.html';
     }
-    
     </script>
   </head>
   <body>
@@ -74,11 +76,11 @@
 
       <div class="container_two">
           <h1 class="title">Digite o seu nome e sobrenome e acompanhe a chamada no painel</h1><br><br>
-          <form action="control/process-confirme.php" method="POST">
-            <input class="input-nome form-control" name="input-nome" placeholder="Digite o seu nome e sobrenome" type="text">
-            <button class="btn1" name="btn">PRÓXIMO</button><br><br>
+          <form action="control/process-confirme.php" method="POST"><!--formulario qu ecaptura o nome e sobrenome-->
+            <input class="input-nome form-control" name="input-nome" placeholder="Digite o seu nome e sobrenome" maxlength="20" type="text">
+            <button class="btn1" name="btn">PRÓXIMO</button><br><br> <!--Envia o nome para proxima tela process-confirme-->
           </form>
-          <button class="btn2" onclick="cancelar()">Cancelar</button>
+          <button class="btn2" onclick="cancelar()">Cancelar</button><!--Botao cancelar com o metodo cancelar javascript-->
           
       </div>
 

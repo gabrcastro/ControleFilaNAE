@@ -12,31 +12,35 @@
 
 </head>
 <body>
+    <!--Container onde terá toda a página-->
     <div class="container-fluid">
+        <!--Criando uma row para podermos dividir o container em colunas, são 12 no total-->
         <div class="row">
+            <!--Coluna com tamanho 3-->
             <div class="col-sm-3"></div>
 
-            
+            <!--Coluna com tamanho 6 assim ela fica centralizada-->
             <div class="div-setor col-sm-6">
-            <h2>Selecione o seu setor e sua mesa</h2>
-                <form action="control/process-setoremesa.php" method="POST">
+            <h2>Selecione o seu setor e sua mesa</h2> <!--Titulo-->
+                <form action="control/process-setoremesa.php" method="POST"> <!--formulario-->
                     <label for="select-setor">Setor</label>
-                    <select class="form-control" name="select-setor" id="select-setor">
+                    <select class="form-control" name="select-setor" id="select-setor"> <!--Select com opcoes de setores-->
                         <option value="NAE">NAE</option>
-                        <option value="ProUNI / FIES">ProUni / FIES</option>
+                        <option value="ProUni/FIES">ProUni / FIES</option>
                     </select>
                     <br><br>
                     <label for="select-mesa">Mesa</label>
-                    <select class="form-control" name="select-mesa" id="select-mesa">
+                    <select class="form-control" name="select-mesa" id="select-mesa"> <!--Select com opcoes de balcao-->
                         <option value="01">01</option>
                         <option value="02">02</option>
                         <option value="03">03</option>
                         <option value="04">04</option>
                     </select>  
                     <br><br>
-                    <button class="btn-avancar btn form-control" type="submit">Avançar</button> 
+                    <button class="btn-avancar btn form-control" type="submit">Avançar</button> <!--Botao que envia dados para process-setormesa.php-->
                 </form> 
             </div>
+            <!--ultima coluna com tamanho 3-->
             <div class="col-sm-3"></div>
         </div>
     </div>

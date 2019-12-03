@@ -17,8 +17,8 @@
     .container_two{
       background-color: #222;
       padding: 10px;
-      padding-bottom: 50px;
       border-radius: 15px;
+      margin-bottom: 10px;
     }
 
     .title{
@@ -36,7 +36,7 @@
     }
 
     img{
-      margin-top: 10px;
+      margin-top: -10px;
       margin-bottom: 20px;
     }
 
@@ -46,7 +46,7 @@
       font-size: 60px;
       border-radius: 25px;
       width: 650px;
-      height: 150px;
+      height: 120px;
     }
 
     .btn2{
@@ -59,7 +59,7 @@
     }
 
     </style>
-
+<!--Mesmo metodo javascript que redireciona para a tela inicial-->
     <script>
     
     function cancelar(){
@@ -75,11 +75,12 @@
       <img src="../imagens/logo.png" alt="">
 
       <div class="container_two">
+        <!--Exibe o nome e setor escolhidos -->
           <h1 class="title">Pressione CONFIRMAR para gerar sua senha</h1><br><br>
           <h2 class="nome">Nome: <?php echo $_SESSION['input-nome'];?></h2>
           <h3 class="setor">Setor: <?php echo $_SESSION['btn-setor'];?></h3>
           <form action="control/process-dados.php" method="POST">
-            <button class="btn1" name="btn">CONFIRMAR</button><br><br>
+            <button class="btn1" name="btn">CONFIRMAR</button><br><br><!--botao que leva para o process-dados.php-->
           </form>  
           <button class="btn2" onclick="cancelar()">Cancelar</button><br><br>
           

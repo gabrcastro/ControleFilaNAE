@@ -34,24 +34,33 @@
 /*------------------------------------------*/
 
 
-.nav{
-    background-color: rgb(102, 102, 102);
+#nav{
+    background-color: rgb(209, 209, 209);
     height: 55px;
-    margin-bottom: 25px;
 }
 
-.nav a{
-  color: white;
+#nav a{
+  color: #222;
+  padding: 12px;
 }
 
-.nav a:hover{
-  color: #dedede;
+.btnSair{
+  margin-left: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.btnOpcoes, .btnUltimaSenha{
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .nav2{
-  background-color: #fff;
+  background-color: white;
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   border-bottom: 1px solid #dedede;
   margin-bottom: 20px;
 }
@@ -62,63 +71,88 @@
 
 .painel-esquerdo{
   padding: 20px;
-  background-color: #dedede;
+  background-color: #f3f3f3;
 }
 
 .painel-esquerdo li{
-  font-size: 40px;
-}
-
-.lista-senhas button{
-  display: block;
-  float: right;
-  background-color: rgb(255, 255, 255);
-  font-size: 35px;
-  color: black;
-  width: 250px;
-}
-
-.lista-senhas label{
-  margin-left: 500px;
-  color: red;
-  text-shadow: 1px 1px #000;
+  font-size: 30px;
 }
 
 .painel-direito{
   padding: 20px;
-  text-align: center;
+  background-color: #f3f3f3;
 }
 
-.painel-direito h2{
-  font-size: 55px;
-  margin-bottom: 50px;
-  margin-top: 120px;
+.botoes{
+  display: block;
+  float: right;
 }
 
-.painel-direito h3{
-  font-size: 120px;
-  margin-bottom: 80px;
+.lista-senhas button{
+  display: block;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+  color: black;
+  width: 200px;
 }
 
-.radios{
-  font-size: 50px;
+.lista-senhas li{
+  background-color: #c3e6cb;
 }
 
-.form-chamar a:active{
-  background-color: green;
+.lista-nao-atendidas li{
+  color: #222;
+  background-color: rgb(255, 255, 255);
 }
 
-.form-chamar button{
-  color: #fff;
-  font-size: 40px;
-  height: 120px;
-  background-color: rgb(85, 139, 13);
+.lista-nao-atendidas label{
+  color: rgb(212, 46, 46);
+  text-shadow: 1px 1px rgb(46, 46, 46);
 }
 
-.form-chamar button:hover{
+#btn-chamar{
+  background-color: rgb(255, 255, 255);
+  color: #222;
+  font-size: 20px;
+  height: 60px;
+}
+
+#btn-chamar:hover{
   background-color: #222;
   color: #fff;
 }
+
+#btn-atendido{
+  color: black;
+  font-size: 20px;
+  height: 60px;
+  background-color: rgb(95, 207, 67);
+}
+
+#btn-atendido:hover{
+  background-color: #222;
+  color: #fff;
+}
+
+#btn-naoatendido{
+  color: black;
+  font-size: 20px;
+  height: 60px;
+  background-color: rgb(212, 46, 46);
+}
+
+#btn-naoatendido:hover{
+  background-color: #222;
+  color: #fff;
+}
+
+
+.lista-senhas label{
+  margin-right: 300px;
+  color: rgb(212, 46, 46);
+  text-shadow: 1px 1px rgb(46, 46, 46);
+}
+
 
 
 
@@ -127,41 +161,46 @@
 
 .container-cima{
     padding: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
   }
 
   .container-cima h1{
     position: relative;
     float: right;
-    font-size: 120px;
+    font-size: 100px;
+  }
+
+  .container-cima img{
+    margin-top: -15px;
   }
 
   .painel-senha{
     background-color: rgb(85, 255, 99);
   }
 
-  .painel-senha h1{
-    margin-bottom: 100px;
+  .painel-senha label{
+    float: left;
     font-size: 90px;
   }
 
   .painel-senha h2{
-    font-size: 250px;
-    margin-bottom: 100px;
+    font-size: 140px;
+    margin-bottom: 20px;
   }
 
   .painel-balcao{
     background-color: rgb(45, 253, 62);  
   }
 
-  .painel-balcao h1{
-    margin-bottom: 100px;
+  .painel-balcao label{
+    float: left;
     font-size: 90px;
   }
 
   .painel-balcao h2{
-    font-size: 250px;
-    margin-bottom: 100px;
+    font-size: 160px;
+    margin-bottom: 10px;
+    margin-left: 600px;
   }
 
 
@@ -209,7 +248,6 @@
   .container_two{
     background-color: #222;
     padding: 10px;
-    padding-bottom: 50px;
     border-radius: 15px;
   }
 
@@ -220,7 +258,7 @@
   }
 
   img{
-    margin-top: 70px;
+    margin-top: 10px;
     margin-bottom: 20px;
   }
 
@@ -230,7 +268,7 @@
     font-size: 60px;
     border-radius: 25px;
     width: 650px;
-    height: 150px;
+    height: 120px;
   }
 
   .btn2{
@@ -239,7 +277,7 @@
     font-size: 60px;
     border-radius: 25px;
     width: 650px;
-    height: 150px;
+    height: 120px;
   }
 
   .btn3{
@@ -278,8 +316,8 @@
 
   .div-setor select{
     font-size: 45px;
+    height: 80px;
   }
-
   .div-setor button{
     height: 60px;
     font-size: 30px;

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+     <meta charset="UTF-8">
+     <title>README</title>
+
+     <!--Bootstrap-->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+     <style>
+     
+          h1, h3{
+               text-align: center;
+          }
+
+          p{
+               font-size: 20px;
+          }
+
+          h4{
+               background-color: #222;
+               padding: 5px;
+               color: orange;
+          }
+
+          footer{
+               padding-top: 50px;
+               padding-bottom: 15px; 
+          }
+     
+     </style>
+</head>
+<body>
+
+     <div class="container">
+          <div class="row">
+               <div class="col-sm-12">
+                    <h1>Sistema de Controle de Fila do NAE</h1><hr>
+                    <p>
+                         O Sistema de Controle de Fila do NAE foi criado por uma equipe do 5° semestre do curso de
+                         Análise e Desenvolvimento de Sistemas da Faculdade São Salvador para o projeto de estágio <br> <br>
+                         Abaixo deixamos o passo a passo e coisas necessárias para a implantação do sistema
+                    </p><hr>
+
+                    <h3>Passo 1 : Instalação de dependências </h3> <hr>
+                    <p>
+                         Para que o sistema funcione perfeitamente, precisará ter um servidor na sua máquina. <br> 
+                         Pode instalar separadamente as seguintes dependencias: <br><br> 
+                    
+                         <a href="https://dev.mysql.com/downloads/">MySQL</a> <br>
+                         <a href="https://httpd.apache.org/download.cgi">Apache</a> <br>
+                         <a href="https://www.php.net/downloads.php">PHP</a> <br> <hr>
+                    </p>
+                    <p>
+                         Pode utilizar softwares completos como: (Recomendável)<br><br>
+                         <a href="https://www.apachefriends.org/download.html">XAMPP</a> <br>
+                         <a href="https://sourceforge.net/projects/wampserver/">WAMP Server</a><br><br>
+
+                         Se o seu sistema for LINUX, acesse um dos links abaixo para instalar o LAMP na sua máquina <br><br>
+
+                         <a href="https://www.edivaldobrito.com.br/instale-lamp-no-linux-e-tenha-um-servidor-web-em-seu-pc/">Instale o LAMP no Linux e tenha um servidor web no PC</a><br>
+                         <a href="https://sempreupdate.com.br/como-instalar-do-lamp-no-ubuntu-18-04/">Como instalar o LAMP no Ubuntu 18.04</a><br><br>
+
+                         Após isso, baixo o MySQL Workbench para gerenciar o banco de dados do sistema <br>
+                         Estamos disponibilizando o MySQL Workbench que é um software muito completo, mas pode utilizar outro da sua preferência <br> <br>
+
+                         <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a><hr>
+
+                    </p>
+                    <h3>Passo 2: Criando banco e adicionando usuários </h3> <hr>
+                    <p>
+                         Com o primeiro passo concluido, inicie o MySQL Workbench para executar os scripts necessários <br><br>
+
+                         Nessa mesma pasta onde o arquivo README.html está, existe dois scripts de nomes <br> <br>
+                         <b>script para criar banco de dados.sql <br>
+                         script para inserir usuários.sql</b> <br><br>
+
+                         Abra o arquivo e execute o codigo no MySQL Workbench. <br>
+                         No script para inserir usuários existe uma explicação básica informando para digitar algo como: <br><br>
+
+                         <h4>INSERT INTO tb_nae VALUES(null, 'Nome Completo', 'Usuario', 'Senha')</h4>
+                    </p>
+                    <p>
+                         Pode substituir onde diz Nome Completo, Usuario e Senha pelos dados do usuário e executar
+                    </p> <hr>
+                    <h3>Passo 3: Abrindo o sistema </h3> <hr>
+                    <p>
+                         Copie a pasta NAE onde está todo o sistema para a pasta do seu servidor <br><br>
+                         Se for o XAMPP copie para a pasta do caminho <b>'C:\xampp/htdocs'</b> <br>
+                         Se for o WAMP copie para a pasta do caminho <b>'C:\wamp64\www'</b> <hr>
+
+                    </p>
+                    <h3>Passo 4: Executando </h3> <hr>
+                    <p>
+                         Abra o navegador e digite o seguinte endereço: <b>localhost/NAE</b> <br> <br>
+                         Dessa maneira você já estará no sistema de controle, basta escolher a opção desejada
+                    </p>
+                    <hr>
+                    <footer>
+                         Tutorial feito por: Gabriel Castro
+                    </footer>
+               </div>
+          </div>
+     </div>
+</body>
+</html>

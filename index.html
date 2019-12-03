@@ -9,24 +9,50 @@
     <!--bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
+    <style>
+    
+    .imglogo{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .sistema{
+        height: 250px;
+    }
+
+    .monitor{
+        height: 250px;
+    }
+
+    .gerarsenha{
+        height: 250px;
+    }    
+
+    </style>
 </head>
 <body>
+
+    <!--Container de toda a página - com bootstrap-->
     <div class="container-main container" align="center">
-        <img class="img-logo" src="imagens/logo.png">
+        <!--Logo da faculdade-->
+        <img class="imglogo" src="imagens/logo.png">
 
-        <div class="login">
-            <form action="funcionario/control/process.php" method="POST">
-                <div class="form-group">
-                    <label for="user">Usuário</label><br>
-                    <input class="form-control" type="text" name="user" id="user"> <br>
-
-                    <label for="passwd">Senha</label><br>
-                    <input class="form-control" type="password" name="passwd" id="passwd"> <br>
-
-                    <button class="btn form-control" type="submit">Entrar</button>
-                </div>
-            </form>
+        <!--Div responsavel pelo painel de login-->
+        <div class="row">
+            <div class="sistema col-sm-4">
+                <h2>Sistema</h2> <hr>
+                <a href="funcionario/index.html"><img src="icons/sistema-nae.ico" alt=""></a>
+            </div>
+            <div class="monitor col-sm-4">
+                <h2>Monitor</h2><hr>
+                <a href="monitor/monitor.php"><img src="icons/monitor.ico" alt=""></a>
+            </div>
+            <div class="gerarsenha col-sm-4">
+                <h2>Gerar Senha</h2><hr>
+                <a href="gerar-senha/gerar_senha.html"><img src="icons/gerar-senha.ico" alt=""></a>
+            </div>    
         </div>
+
     </div>
 </body>
 </html>
